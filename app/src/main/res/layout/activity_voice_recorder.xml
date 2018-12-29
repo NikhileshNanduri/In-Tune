@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".voice_recorder"
+    android:orientation="vertical"
+    android:background="@drawable/bg3">
+
+
+
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:text="Media Recorder"
+        android:fontFamily="sans-serif-condensed"/>
+
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click here to \n record your \n     voice"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click here to \n "/>
+
+    </LinearLayout>
+    -->
+     <!--<TextView
+         android:layout_marginTop="25dp"
+         android:textSize="24sp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="RECORD AREA"/>-->
+    <LinearLayout
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/startRecord"
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/recorderBtColor"
+            android:textStyle="bold"
+            android:text="RECORD"
+            android:background="@drawable/button_bg"/>
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/stopRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:background="@drawable/button_bg"
+            android:textColor="@color/recorderBtColor"
+            android:textSize="13sp"
+            android:text="STOP RECORD"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <!--<TextView
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLAY AREA"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/startPlay"
+            android:layout_marginLeft="70dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg"
+            android:textColor="@color/recorderBtColor"
+            android:text="PLAY"/>
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="match_parent">
+        </View>
+
+        <Button
+            android:id="@+id/stopPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg"
+            android:textColor="@color/recorderBtColor"
+            android:textStyle="bold"
+            android:text="STOP PLAY"/>
+
+    </LinearLayout>
+</LinearLayout>

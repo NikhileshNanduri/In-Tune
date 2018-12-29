@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">In-tune</string>
+    <string name="about">In-tune is a simple application which caters to all your multimedia needs in one place. It runs all sorts of audio and video files and can record the same.
+    No ads, no restrictions, completely free, just pure experience built by skilled developers."</string>
+    <string name="about2">\nFeatures: \n\nAudio Recording - Record audio in high quality with the built in recorder.\n\nCamera app - Camera shortcut for the stock phone camera.\n\nVideo Player - Plays all types of videos seamlessly with a user friendly UI.\n\nMusic Player - Play music on your phone with a simple, easy to use UI"</string>
+    <string name="title_activity_fabactivity">FABactivity</string>
+</resources>

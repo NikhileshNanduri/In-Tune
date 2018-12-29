@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--android:background="@drawable/bg3">-->
+
+    
+   <ImageView
+       android:id="@+id/musicItem"
+       android:layout_width="40dp"
+       android:layout_height="40dp"
+       android:src="@drawable/ic_queue_music_black_24dp" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_toRightOf="@id/musicItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Song Name"
+        android:textSize="20sp"
+        android:textColor="#04185c"/>
+
+    <TextView
+        android:id="@+id/txtSinger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Singer"
+        android:textSize="18sp"
+        android:textColor="#500461"
+        android:layout_below="@id/txtName"
+        android:layout_alignLeft="@id/txtName"/>
+    
+    
+    <ImageView
+        android:id="@+id/stopButton"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/circle1"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="4dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/stop_new"/>
+
+    <ImageView
+        android:id="@+id/playButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/circle1"
+        android:layout_marginTop="5dp"
+        android:layout_toStartOf="@id/stopButton"
+        android:layout_marginLeft="4dp"
+        android:src="@drawable/play_new"/>
+
+
+
+</RelativeLayout>
